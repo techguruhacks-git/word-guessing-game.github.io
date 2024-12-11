@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighSeas Word Guess Game</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="bubble-background">
+        <div class="circle xxlarge color1"></div>
+        <div class="circle xlarge color2"></div>
+        <div class="circle large color3"></div>
+        <div class="circle medium color4"></div>
+        <div class="circle small color5" ></div>
+
+        <div class="circle2 xxlarge2 color1"></div>
+        <div class="circle2 xlarge2 color2"></div>
+        <div class="circle2 large2 color3"></div>
+        <div class="circle2 medium2 color4"></div>
+        <div class="circle2 smal2l color5" ></div>
+        
+
+    </div>
+    <div class="container">
+        <h1>HighSeas Word Guessing Game</h1>
+        <div class="content">
+            <img src="high-seas.png" alt="">
+            <input type="text" class="user-input"  placeholder="Enter the Text Here.....">
+            <div class="inputs">
+                
+            </div>
+
+            <div class="info">
+                <p class="hint">Hint: <span></span></p>
+                <p class="Attempt-left">Remaning Attempt: <span></span></p>
+                <p class="wrong-count">Wrong Letters: <span></span></p>
+            </div>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+       
+       <script src="word-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
