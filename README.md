@@ -1,4 +1,7 @@
 # word-guessing-game.github.io
+
+
+Disclaimer: Made with the help of Tutorials and i changed the user interface and add some my own features and also take help of AI to solve some error. 
  
 A Fun Highseas Sop and interactive Word Guess Game featuring a sleek glassmorphism design and a beautiful aniated background. 
 
